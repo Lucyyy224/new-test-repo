@@ -1,0 +1,37 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px 200px 200px;
+    grid-template-areas: 
+    "b b r r"
+    "b b y o"
+    "g g g g"
+    ;
+}
+
+.red{
+    background-color: red;
+    grid-area: r;
+}
+
+.blue{
+    background-color: blue;
+    grid-area: b;
+}
+
+.yellow{
+    background-color: yellow;
+    grid-area: y;
+    font-size: 10px;
+}
+
+.orange{
+    background-color: orange;
+    grid-area: o;
+    font-size: 10px;
+}
+
+.green{
+    background-color: green;
+    grid-area: g;
+}
