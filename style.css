@@ -1,37 +1,46 @@
 .grid-layout{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 300px 200px 200px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas: 
-    "b b r r"
-    "b b y o"
-    "g g g g"
+    "b y y"
+    "p p pur"
+    "o g g"
     ;
 }
 
-.red{
-    background-color: red;
-    grid-area: r;
+.pink{
+    background-color: rgb(255, 172, 172);
+    grid-area: p;
+
+    
 }
 
 .blue{
-    background-color: blue;
+    background-color: rgb(180, 246, 255);
     grid-area: b;
+    text-align: center;
 }
 
 .yellow{
     background-color: yellow;
     grid-area: y;
-    font-size: 10px;
+    
 }
 
 .orange{
-    background-color: orange;
+    background-color: rgb(255, 205, 112);
     grid-area: o;
-    font-size: 10px;
+    text-align: center;
 }
 
 .green{
-    background-color: green;
+    background-color: rgb(170, 238, 163);
     grid-area: g;
+}
+
+.purple{
+    background-color: rgb(209, 163, 238);
+    grid-area: pur;
+    text-align: center;
 }
